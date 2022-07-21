@@ -1,0 +1,16 @@
+name: AstShop
+version: '${project.version}'
+main: fr.myxbox.astshop.AstShop
+api-version: 1.19
+depend: [ Vault ]
+authors: [ MyxBow ]
+description: Shop plugin
+website: https://astcraft.com/
+commands:
+  shop:
+    aliases:
+      - magasin
+      - shops
+      - magasins
+      - boutique
+      - boutiques
