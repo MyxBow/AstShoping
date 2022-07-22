@@ -1941,7 +1941,7 @@ public class ShopEvent implements Listener {
 
                         player.getInventory().removeItem(new ItemStack(Material.BASALT, number));
                         eco.depositPlayer(player, number * 0.10);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + eco.format(number * 0.10) + " coins ! §b<<");
 
                     } else {
 
