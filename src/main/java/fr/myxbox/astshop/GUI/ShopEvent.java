@@ -999,8 +999,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.STONE));
 
                         player.getInventory().removeItem(new ItemStack(Material.STONE, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1046,8 +1046,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.COBBLESTONE));
 
                         player.getInventory().removeItem(new ItemStack(Material.COBBLESTONE, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                         } else {
 
@@ -1094,8 +1094,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.GRAVEL));
 
                         player.getInventory().removeItem(new ItemStack(Material.GRAVEL, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1142,8 +1142,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.ANDESITE));
 
                         player.getInventory().removeItem(new ItemStack(Material.ANDESITE, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1190,8 +1190,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.TUFF));
 
                         player.getInventory().removeItem(new ItemStack(Material.TUFF, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1238,8 +1238,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.DRIPSTONE_BLOCK));
 
                         player.getInventory().removeItem(new ItemStack(Material.DRIPSTONE_BLOCK, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1286,8 +1286,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.COBBLED_DEEPSLATE));
 
                         player.getInventory().removeItem(new ItemStack(Material.COBBLED_DEEPSLATE, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1332,8 +1332,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.DEEPSLATE));
 
                         player.getInventory().removeItem(new ItemStack(Material.DEEPSLATE, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1379,8 +1379,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.POLISHED_DEEPSLATE));
 
                         player.getInventory().removeItem(new ItemStack(Material.POLISHED_DEEPSLATE, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1473,8 +1473,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.CALCITE));
 
                         player.getInventory().removeItem(new ItemStack(Material.CALCITE, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1521,8 +1521,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.GRASS_BLOCK));
 
                         player.getInventory().removeItem(new ItemStack(Material.GRASS_BLOCK, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1569,8 +1569,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.DIRT));
 
                         player.getInventory().removeItem(new ItemStack(Material.DIRT, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1617,8 +1617,8 @@ public class ShopEvent implements Listener {
                             int number = getAmount(player, new ItemStack(Material.SAND));
 
                             player.getInventory().removeItem(new ItemStack(Material.SAND, number));
-                            eco.depositPlayer(player, number * 0.50);
-                            player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                         } else {
 
@@ -1663,8 +1663,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.RED_SAND));
 
                         player.getInventory().removeItem(new ItemStack(Material.RED_SAND, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1710,8 +1710,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.GRANITE));
 
                         player.getInventory().removeItem(new ItemStack(Material.GRANITE, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1757,9 +1757,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.POLISHED_GRANITE));
 
                         player.getInventory().removeItem(new ItemStack(Material.POLISHED_GRANITE, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
-
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
                     } else {
 
                         player.closeInventory();
@@ -1803,8 +1802,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.DIORITE));
 
                         player.getInventory().removeItem(new ItemStack(Material.DIORITE, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1849,8 +1848,8 @@ public class ShopEvent implements Listener {
                         int number = getAmount(player, new ItemStack(Material.POLISHED_DIORITE));
 
                         player.getInventory().removeItem(new ItemStack(Material.POLISHED_DIORITE, number));
-                        eco.depositPlayer(player, number * 0.50);
-                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.20 + " coins ! §b<<");
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
 
                     } else {
 
@@ -1887,6 +1886,147 @@ public class ShopEvent implements Listener {
                     }
                 }
             }
+
+            if (e.getCurrentItem().getType() == Material.NETHERRACK &&
+                    ((ItemMeta) Objects.requireNonNull(e.getCurrentItem().getItemMeta())).getDisplayName().equals("§7Netherrack")) {
+                if (e.getClick().isRightClick()) {
+                    if (player.getInventory().contains(Material.NETHERRACK)) {
+                        int number = getAmount(player, new ItemStack(Material.NETHERRACK));
+
+                        player.getInventory().removeItem(new ItemStack(Material.NETHERRACK, number));
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
+
+                    } else {
+
+                        player.closeInventory();
+                        player.sendMessage("§7§l>> §cVous n'avez pas l'item requis !");
+
+                    }
+
+                } else if (e.getClick().isLeftClick() && !(e.getClick().isShiftClick())) {
+
+                    if (eco.getBalance(player) >= 1.50) {
+
+                        player.getInventory().addItem(new ItemStack(Material.NETHERRACK, 1));
+                        player.sendRawMessage("§b>> §aVous venez d'acheter §e1" + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e1.50 coins ! §b<<");
+
+                    } else {
+
+                        player.closeInventory();
+                        player.sendMessage("§7§l>> §cVous n'avez pas assez d'argent !");
+
+                    }
+
+                } else if (e.getClick().isLeftClick() && e.getClick().isShiftClick()){
+                    if (eco.getBalance(player) >= 22.5) {
+
+                        player.getInventory().addItem(new ItemStack(Material.NETHERRACK, 15));
+                        player.sendRawMessage("§b>> §aVous venez d'acheter §e15" + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e22.50 coins ! §b<<");
+
+                    } else {
+
+                        player.closeInventory();
+                        player.sendMessage("§7§l>> §cVous n'avez pas assez d'argent !");
+
+                    }
+                }
+            }
+
+            if (e.getCurrentItem().getType() == Material.BASALT &&
+                    ((ItemMeta) Objects.requireNonNull(e.getCurrentItem().getItemMeta())).getDisplayName().equals("§7Basalt")) {
+                if (e.getClick().isRightClick()) {
+                    if (player.getInventory().contains(Material.BASALT)) {
+                        int number = getAmount(player, new ItemStack(Material.BASALT));
+
+                        player.getInventory().removeItem(new ItemStack(Material.BASALT, number));
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
+
+                    } else {
+
+                        player.closeInventory();
+                        player.sendMessage("§7§l>> §cVous n'avez pas l'item requis !");
+
+                    }
+
+                } else if (e.getClick().isLeftClick() && !(e.getClick().isShiftClick())) {
+
+                    if (eco.getBalance(player) >= 1.50) {
+
+                        player.getInventory().addItem(new ItemStack(Material.BASALT, 1));
+                        player.sendRawMessage("§b>> §aVous venez d'acheter §e1" + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e1.50 coins ! §b<<");
+
+                    } else {
+
+                        player.closeInventory();
+                        player.sendMessage("§7§l>> §cVous n'avez pas assez d'argent !");
+
+                    }
+
+                } else if (e.getClick().isLeftClick() && e.getClick().isShiftClick()){
+                    if (eco.getBalance(player) >= 22.5) {
+
+                        player.getInventory().addItem(new ItemStack(Material.BASALT, 15));
+                        player.sendRawMessage("§b>> §aVous venez d'acheter §e15" + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e22.50 coins ! §b<<");
+
+                    } else {
+
+                        player.closeInventory();
+                        player.sendMessage("§7§l>> §cVous n'avez pas assez d'argent !");
+
+                    }
+                }
+            }
+
+            if (e.getCurrentItem().getType() == Material.BLACKSTONE &&
+                    ((ItemMeta) Objects.requireNonNull(e.getCurrentItem().getItemMeta())).getDisplayName().equals("§7Roche noire")) {
+                if (e.getClick().isRightClick()) {
+                    if (player.getInventory().contains(Material.BLACKSTONE)) {
+                        int number = getAmount(player, new ItemStack(Material.BLACKSTONE));
+
+
+
+                        player.getInventory().removeItem(new ItemStack(Material.BLACKSTONE, number));
+                        eco.depositPlayer(player, number * 0.10);
+                        player.sendRawMessage("§b>> §aVous venez de vendre §e" + number + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e" + number * 0.10 + " coins ! §b<<");
+
+                    } else {
+
+                        player.closeInventory();
+                        player.sendMessage("§7§l>> §cVous n'avez pas l'item requis !");
+
+                    }
+
+                } else if (e.getClick().isLeftClick() && !(e.getClick().isShiftClick())) {
+
+                    if (eco.getBalance(player) >= 1.50) {
+
+                        player.getInventory().addItem(new ItemStack(Material.BLACKSTONE, 1));
+                        player.sendRawMessage("§b>> §aVous venez d'acheter §e1" + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e1.50 coins ! §b<<");
+
+                    } else {
+
+                        player.closeInventory();
+                        player.sendMessage("§7§l>> §cVous n'avez pas assez d'argent !");
+
+                    }
+
+                } else if (e.getClick().isLeftClick() && e.getClick().isShiftClick()){
+                    if (eco.getBalance(player) >= 22.5) {
+
+                        player.getInventory().addItem(new ItemStack(Material.BLACKSTONE, 15));
+                        player.sendRawMessage("§b>> §aVous venez d'acheter §e15" + " " + e.getCurrentItem().getItemMeta().getDisplayName() + " §apour §e22.50 coins ! §b<<");
+
+                    } else {
+
+                        player.closeInventory();
+                        player.sendMessage("§7§l>> §cVous n'avez pas assez d'argent !");
+
+                    }
+                }
+            }
+
         }
     }
 }

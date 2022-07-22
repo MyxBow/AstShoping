@@ -12,6 +12,7 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.bukkit.inventory.meta.SkullMeta;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -324,7 +325,7 @@ public class ShopGUI implements Listener {
     public Inventory BlocShop(Player user) {
         Inventory gui = Bukkit.createInventory(null, 54, "§3>> §7Bloc §3<<");
 
-        String bloc_sell = "0.50";
+        String bloc_sell = "0.10";
         String bloc_buy = "1.50";
         //---------------------------------------------------
         ItemStack vitre = new ItemStack(Material.GRAY_STAINED_GLASS_PANE);
@@ -337,11 +338,11 @@ public class ShopGUI implements Listener {
         player_meta.setDisplayName("§b>> §cRetour §b<<");
         back.setItemMeta(player_meta);
 
-        ItemStack player = new ItemStack(Material.STONE);
+        ItemStack player = new ItemStack(Material.SKELETON_SKULL);
         ItemMeta pl_meta = player.getItemMeta();
         pl_meta.setDisplayName("§b>> §eVotre compte §b<<");
         List<String> player_lore = new ArrayList<String>();
-        player_lore.add("§7Votre balance: §f"+eco.getBalance(user));
+        player_lore.add("§7Votre balance: §f"+AstShop.getEconomy().getBalance(user, null));
         pl_meta.setLore(player_lore);
         player.setItemMeta(pl_meta);
 
@@ -521,6 +522,38 @@ public class ShopGUI implements Listener {
 
         gui.setItem(23, gpolie);
 
+        ItemStack neth = new ItemStack(Material.NETHERRACK);
+        ItemMeta neth_meta = neth.getItemMeta();
+        neth_meta.setDisplayName("§7Netherrack");
+        List<String> neth_lore = new ArrayList<String>();
+        neth_lore.add("§7Vendre (clique droit): §f"+bloc_sell);
+        neth_lore.add("§7Acheter (clique gauche): §f"+bloc_buy);
+        neth_meta.setLore(neth_lore);
+        neth.setItemMeta(neth_meta);
+
+        gui.setItem(24, neth);
+
+        ItemStack bas = new ItemStack(Material.BASALT);
+        ItemMeta bas_meta = bas.getItemMeta();
+        bas_meta.setDisplayName("§7Basalt");
+        List<String> bas_lore = new ArrayList<String>();
+        bas_lore.add("§7Vendre (clique droit): §f"+bloc_sell);
+        bas_lore.add("§7Acheter (clique gauche): §f"+bloc_buy);
+        bas_meta.setLore(bas_lore);
+        bas.setItemMeta(bas_meta);
+
+        gui.setItem(25, bas);
+
+        ItemStack rochn = new ItemStack(Material.BLACKSTONE);
+        ItemMeta rochn_meta = rochn.getItemMeta();
+        rochn_meta.setDisplayName("§7Roche noire");
+        List<String> rochn_lore = new ArrayList<String>();
+        rochn_lore.add("§7Vendre (clique droit): §f"+bloc_sell);
+        rochn_lore.add("§7Acheter (clique gauche): §f"+bloc_buy);
+        rochn_meta.setLore(rochn_lore);
+        rochn.setItemMeta(rochn_meta);
+
+        gui.setItem(26, rochn);
 
 
         ItemStack gra = new ItemStack(Material.GRASS_BLOCK);
@@ -543,7 +576,7 @@ public class ShopGUI implements Listener {
         dirt_meta.setLore(dirt_lore);
         dirt.setItemMeta(dirt_meta);
 
-        gui.setItem(38, dirt);
+        gui.setItem(37, dirt);
 
         ItemStack sand = new ItemStack(Material.SAND);
         ItemMeta sand_meta = sand.getItemMeta();
@@ -554,7 +587,7 @@ public class ShopGUI implements Listener {
         sand_meta.setLore(sand_lore);
         sand.setItemMeta(sand_meta);
 
-        gui.setItem(40, sand);
+        gui.setItem(38, sand);
         ItemStack sandr = new ItemStack(Material.RED_SAND);
         ItemMeta sandr_meta = sandr.getItemMeta();
         sandr_meta.setDisplayName("§7Sable rouge");
@@ -564,7 +597,7 @@ public class ShopGUI implements Listener {
         sandr_meta.setLore(sandr_lore);
         sandr.setItemMeta(sandr_meta);
 
-        gui.setItem(42, sandr);
+        gui.setItem(39, sandr);
 
 
         return gui;
